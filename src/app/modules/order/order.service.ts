@@ -18,7 +18,7 @@ const createOrder = async (orderData: TOrder) => {
 
         //checking the stock
         if (product.inventory.quantity < orderData.quantity) {
-            throw new Error("Not enough stock available");
+            throw new Error("Insufficient quantity available in inventory");
         }
 
         //updating the quantity
