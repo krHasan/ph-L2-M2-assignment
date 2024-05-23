@@ -20,6 +20,6 @@ Clone and Run
 -   create a .env file in project root and add 'NODE_ENV', 'PORT' and 'DATABASE_URL'
 -   run the application with $ npm run start:dev
 
-# License
+## License
 
-MIT (do whatever you want to do)
+MIT (do whatever you want to do :smile: )
